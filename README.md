@@ -78,3 +78,16 @@ The credits can be found in the application on the `About` tab. If you want to c
 - [YouTube](https://www.youtube.com/user/BullyWiiPlaza)
 - bullywiihacks AT gmail DOT com (E-Mail)
 - [Discord](https://discord.gg/5JcvrUg) (BullyWiiPlaza#3947)
+
+## Development
+
+Build and run the scaffolded Java project locally:
+
+```bash
+# generate wrapper (only if you don't have it)
+gradle wrapper --gradle-version 9.4
+./gradlew build
+./gradlew run
+```
+
+If you use the forked remote created by this workspace, push changes to `origin`.
